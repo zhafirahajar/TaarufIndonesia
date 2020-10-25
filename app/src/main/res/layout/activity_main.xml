@@ -11,18 +11,28 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="halo halo"
+        android:text="INI aku"
         android:textColor="#FF0000"
         android:textSize="30sp"
         tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button"
+        android:layout_width="208dp"
+        android:layout_height="356dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="200dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="aaaaaaaaaaa"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="91dp"
-        tools:ignore="MissingConstraints"/>
+        android:text="Button"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="131dp"
+        tools:ignore="MissingConstraints" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
