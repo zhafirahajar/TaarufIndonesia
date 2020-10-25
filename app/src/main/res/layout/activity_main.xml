@@ -11,10 +11,18 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="INI JEP"
+        android:text="INI aku"
         android:textColor="#FF0000"
         android:textSize="30sp"
         tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="208dp"
+        android:layout_height="356dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="200dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
