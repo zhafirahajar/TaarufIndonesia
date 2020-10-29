@@ -22,7 +22,7 @@ public class HalamanAwal extends AppCompatActivity {
                 finish();
             }
         });
-        final Button submitButton2 = (Button)findViewById(R.id.Register);
+        final Button submitButton2 = (Button)findViewById(R.id.next_kriteria);
         submitButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    tools:context=".activity_kriteria_calon">
+    tools:context=".kriteria_calon">
 
     <LinearLayout
         android:layout_width="389dp"
@@ -115,8 +115,8 @@
             android:layout_marginBottom="20dp"
             android:background="@drawable/rounded_corners"
             android:color="@color/mainYellow"
-            android:onClick="clickStart"
-            android:text="@string/ok" />
+            android:onClick="clickRegister"
+            android:text="@string/register" />
 
         <Button
             android:id="@+id/button_back"
@@ -124,7 +124,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:background="@drawable/rounded_corner_grey"
-            android:text="@string/back" />
+            android:onClick="clickLogin"
+            android:text="@string/login" />
 
     </LinearLayout>
 
