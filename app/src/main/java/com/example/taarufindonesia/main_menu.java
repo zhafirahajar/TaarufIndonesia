@@ -6,16 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class activity_kriteria_calon extends AppCompatActivity {
+public class main_menu extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.kriteria_calon);
+        setContentView(R.layout.activity_main_menu);
     }
 
-    public void clickStart(View view){
-        Intent next = new Intent(this, activity_main_menu.class);
+    public void editProfile(View view){
+        Intent next = new Intent(this, profile_pribadi.class);
         startActivity(next);
     }
 }

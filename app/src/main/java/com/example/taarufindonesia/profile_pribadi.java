@@ -6,16 +6,18 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class activity_main_menu extends AppCompatActivity {
+public class profile_pribadi extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main_menu);
+        setContentView(R.layout.activity_profile_pribadi);
     }
-
-    public void editProfile(View view){
-        Intent next = new Intent(this, activity_profile_pribadi.class);
+    public void backButtonPressed(View view){
+        this.onBackPressed();
+    } //di app
+    public void clickLogout(View view){
+        Intent next = new Intent(this, HalamanAwal.class);
         startActivity(next);
     }
 }

@@ -13,4 +13,7 @@
     <string name="tanggalLahir">Tanggil Lahir :</string>
     <string name="alamat">Alamat :</string>
     <string name="pekerjaan_pribadi">Pekerjaan :</string>
+    <string name="register">REGISTER</string>
+    <string name="login">LOGIN</string>
+    <string name="next">SELANJUTNYA</string>
 </resources>
