@@ -4,6 +4,8 @@
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
     <color name="mainYellow">#FFBD33</color>
+    <color name="navYellow">#45FFC107</color>
     <color name="shadowYellow">#BDA138</color>
     <color name="buttonGrey">#CBCBCB</color>
+    <color name="cardGrey">#9C9B9B</color>
 </resources>

@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">TaarufIndonesia</string>
+    <string name="kriteria">Kriteria Pasangan Yang Diharapkan</string>
+    <string name="umur">Umur</string>
+    <string name="domisili_pasangan">Domisili Pasangan</string>
+    <string name="pekerjaan_pasangan">Pekerjaan Pasangan</string>
+    <string name="kriteria_harapan">Kriteria Yang Diharapkan</string>
+    <string name="ok">OK</string>
+    <string name="back">BACK</string>
+    <string name="edit">Edit</string>
+    <string name="logout">Logout</string>
+    <string name="fullName">Nama Lengkap :</string>
+    <string name="tanggalLahir">Tanggil Lahir :</string>
+    <string name="alamat">Alamat :</string>
+    <string name="pekerjaan_pribadi">Pekerjaan :</string>
 </resources>
