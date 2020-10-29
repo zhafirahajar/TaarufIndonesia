@@ -16,6 +16,10 @@
 
         </activity>
         <activity android:name=".activity_kriteria_calon">
+        <activity android:name=".HalamanRegis2"></activity>
+        <activity android:name=".HalamanRegis" />
+        <activity android:name=".HalamanLogin" />
+        <activity android:name=".HalamanAwal">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
