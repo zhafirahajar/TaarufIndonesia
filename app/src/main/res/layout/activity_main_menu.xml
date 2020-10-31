@@ -62,7 +62,7 @@
                     android:layout_alignParentRight="true"
                     android:layout_marginRight="30dp"
                     android:background="@drawable/match_list"
-                    android:onClick="listMatch"/>
+                    android:onClick="BackHome"/>
 
                 <TextView
                     android:id="@+id/match"
