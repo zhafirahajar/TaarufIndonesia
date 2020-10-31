@@ -7,25 +7,20 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class main_menu extends AppCompatActivity {
+public class ProfilPasangan extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_menu);
+        setContentView(R.layout.activity_profil_pasangan);
 
-        Button backsit1 = (Button) findViewById(R.id.love);
-        backsit1.setOnClickListener(new View.OnClickListener() {
+        Button backsit2 = (Button) findViewById(R.id.BacktoList);
+        backsit2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(main_menu.this, ListMatches.class);
+                Intent intent = new Intent(ProfilPasangan.this, ListMatches.class);
                 startActivity(intent);
             }
         });
-    }
-
-    public void editProfile(View view){
-        Intent next = new Intent(this, profile_pribadi.class);
-        startActivity(next);
     }
 }
