@@ -14,14 +14,11 @@ public class main_menu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu);
 
-        Button backsit1 = (Button) findViewById(R.id.love);
-        backsit1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(main_menu.this, ListMatches.class);
-                startActivity(intent);
-            }
-        });
+
+    }
+    public void listMatch(View view){
+        Intent next = new Intent(this, ListMatches.class);
+        startActivity(next);
     }
 
     public void editProfile(View view){

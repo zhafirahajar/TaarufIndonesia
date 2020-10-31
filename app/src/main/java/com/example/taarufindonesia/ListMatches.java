@@ -14,13 +14,15 @@ public class ListMatches extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list_matches);
 
-        Button backsit1 = (Button) findViewById(R.id.matches);
-        backsit1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(ListMatches.this, ProfilPasangan.class);
-                startActivity(intent);
-            }
-        });
+
+    }
+    public void onPasangan(View view){
+        Intent next = new Intent(this, ProfilPasangan.class);
+        startActivity(next);
+    }
+
+    public void backPasangan(View view) {
+        Intent next = new Intent(this, main_menu.class);
+        startActivity(next);
     }
 }

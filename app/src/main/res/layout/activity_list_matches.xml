@@ -18,7 +18,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="0dp"
-        android:layout_marginTop="139dp">
+        android:layout_marginTop="139dp"
+        android:onClick="onPasangan">
 
         <ImageView
             android:layout_width="120dp"
@@ -34,12 +35,11 @@
         <TextView
             android:layout_width="211dp"
             android:layout_height="41dp"
-            android:layout_below="@+id/null"
             android:layout_alignParentEnd="true"
             android:layout_marginTop="32dp"
             android:layout_marginEnd="29dp"
             android:text="Domisil dan Deskripsi"
-            tools:ignore="RelativeOverlap" />
+            tools:ignore="RelativeOverlap,UnknownId" />
 
         <TextView
             android:layout_width="201dp"
@@ -81,7 +81,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:background="?attr/colorPrimary"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="2dp"
+        android:background="@color/mainYellow"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme" />
 
@@ -91,10 +93,26 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="17dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="149dp"
         android:layout_marginTop="19dp"
         android:text="List Matches"
-        android:textColor="@color/design_default_color_background"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="18sp"
+        tools:ignore="RelativeOverlap" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="20dp"
+        android:onClick="backPasangan"
+        android:text="kembali"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="18sp"
         tools:ignore="RelativeOverlap" />
 
     <TextView
