@@ -13,19 +13,21 @@
         android:padding="30dp">
 
         <TextView
-            android:id="@+id/button_back"
+            android:id="@+id/button_back_editProfile"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_marginBottom="5dp"
-            android:text="Edit Profil"
+            android:background="@drawable/custom_rounded_corner"
+            android:text="Edit Profile"
             android:textColor="@color/cardview_dark_background"
-            android:textSize="30sp" />
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/profile_pic"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:layout_marginBottom="15dp"
             android:scaleType="centerInside"
             app:srcCompat="@drawable/hijab" />
 
@@ -39,7 +41,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="529dp"
                 android:orientation="vertical"
                 android:padding="20dp">
 
@@ -132,18 +134,19 @@
                     android:typeface="normal" />
 
                 <Button
-                    android:id="@+id/BacktoProfil"
+                    android:id="@+id/button_simpan"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
-                    android:background="@color/mainYellow"
+                    android:background="@drawable/custom_rounded_corner"
                     android:text="Simpan" />
 
                 <Button
-                    android:id="@+id/BacktoProfil"
+                    android:id="@+id/button_kembali"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/buttonGrey"
+                    android:background="@drawable/rounded_corner_grey"
+                    android:onClick="backButtonPressed"
                     android:text="Kembali" />
 
             </LinearLayout>

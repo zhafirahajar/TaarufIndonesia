@@ -14,7 +14,7 @@ public class Settings extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
 
-        Button backsit10 = (Button) findViewById(R.id.BacktoProfil);
+        Button backsit10 = (Button) findViewById(R.id.button_simpan);
         backsit10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -23,4 +23,8 @@ public class Settings extends AppCompatActivity {
             }
         });
     }
+
+    public void backButtonPressed(View view){
+        this.onBackPressed();
+    } //di app
 }

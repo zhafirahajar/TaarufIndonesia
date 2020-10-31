@@ -135,14 +135,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
-                    android:background="@color/mainYellow"
+                    android:background="@drawable/custom_rounded_corner"
                     android:text="@string/edit" />
 
                 <Button
                     android:id="@+id/button_logout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/buttonGrey"
+                    android:background="@drawable/rounded_corner_grey"
                     android:onClick="clickLogout"
                     android:text="@string/logout" />
 
