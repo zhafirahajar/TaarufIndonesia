@@ -12,14 +12,14 @@
         android:orientation="vertical"
         android:padding="30dp">
 
-        <Button
+        <TextView
             android:id="@+id/button_back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:background="@color/mainYellow"
-            android:onClick="backButtonPressed"
-            android:text="@string/back" />
+            android:text="Edit Profil"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="30sp" />
 
         <ImageView
             android:id="@+id/profile_pic"
@@ -36,6 +36,7 @@
             app:cardBackgroundColor="@color/navYellow"
             app:cardCornerRadius="20dp">
 
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -51,13 +52,13 @@
                     android:textColor="#000000"
                     android:textSize="20sp" />
 
-                <TextView
+                <EditText
                     android:id="@+id/fullName_value"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="20dp"
+                    android:layout_marginBottom="10dp"
                     android:fontFamily="sans-serif-medium"
-                    android:text="TextView"
+                    android:text="Edit Text"
                     android:textAllCaps="false"
                     android:textColor="@color/shadowYellow"
                     android:textSize="20sp"
@@ -69,17 +70,17 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="5dp"
-                    android:text="@string/fullName"
+                    android:text="@string/tanggalLahir"
                     android:textColor="#000000"
                     android:textSize="20sp" />
 
-                <TextView
+                <EditText
                     android:id="@+id/tanggalLahir_value"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="20dp"
+                    android:layout_marginBottom="10dp"
                     android:fontFamily="sans-serif-medium"
-                    android:text="TextView"
+                    android:text="EditText"
                     android:textAllCaps="false"
                     android:textColor="@color/shadowYellow"
                     android:textSize="20sp"
@@ -95,13 +96,13 @@
                     android:textColor="#000000"
                     android:textSize="20sp" />
 
-                <TextView
+                <EditText
                     android:id="@+id/alamat_value"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="20dp"
+                    android:layout_marginBottom="10dp"
                     android:fontFamily="sans-serif-medium"
-                    android:text="TextView"
+                    android:text="Edit Text"
                     android:textAllCaps="false"
                     android:textColor="@color/shadowYellow"
                     android:textSize="20sp"
@@ -113,17 +114,17 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="5dp"
-                    android:text="@string/alamat"
+                    android:text="@string/pekerjaan_pribadi"
                     android:textColor="#000000"
                     android:textSize="20sp" />
 
-                <TextView
+                <EditText
                     android:id="@+id/pekerjaanPribadi_value"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="20dp"
+                    android:layout_marginBottom="10dp"
                     android:fontFamily="sans-serif-medium"
-                    android:text="TextView"
+                    android:text="Edit Text"
                     android:textAllCaps="false"
                     android:textColor="@color/shadowYellow"
                     android:textSize="20sp"
@@ -131,20 +132,19 @@
                     android:typeface="normal" />
 
                 <Button
-                    android:id="@+id/Settings"
+                    android:id="@+id/BacktoProfil"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
                     android:background="@color/mainYellow"
-                    android:text="@string/edit" />
+                    android:text="Simpan" />
 
                 <Button
-                    android:id="@+id/button_logout"
+                    android:id="@+id/BacktoProfil"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/buttonGrey"
-                    android:onClick="clickLogout"
-                    android:text="@string/logout" />
+                    android:text="Kembali" />
 
             </LinearLayout>
 

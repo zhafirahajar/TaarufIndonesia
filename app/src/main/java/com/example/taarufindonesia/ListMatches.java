@@ -7,22 +7,22 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class main_menu extends AppCompatActivity {
+public class ListMatches extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_menu);
+        setContentView(R.layout.activity_list_matches);
 
 
     }
-    public void listMatch(View view){
-        Intent next = new Intent(this, ListMatches.class);
+    public void onPasangan(View view){
+        Intent next = new Intent(this, ProfilPasangan.class);
         startActivity(next);
     }
 
-    public void editProfile(View view){
-        Intent next = new Intent(this, profile_pribadi.class);
+    public void backPasangan(View view) {
+        Intent next = new Intent(this, main_menu.class);
         startActivity(next);
     }
 }
