@@ -12,27 +12,16 @@
         <activity android:name=".HalamanAwal">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".profile_pribadi">
-
-        </activity>
-        <activity android:name=".main_menu">
-
-        </activity>
-        <activity android:name=".kriteria_calon">
-
-        </activity>
-        <activity android:name=".HalamanRegis2">
-
-        </activity>
-        <activity android:name=".HalamanRegis">
-
-        </activity>
-        <activity android:name=".HalamanLogin">
-
-        </activity>
+        <activity android:name=".profile_pribadi"></activity>
+        <activity android:name=".main_menu"></activity>
+        <activity android:name=".kriteria_calon"></activity>
+        <activity android:name=".HalamanRegis2"></activity>
+        <activity android:name=".HalamanRegis"></activity>
+        <activity android:name=".HalamanLogin"></activity>
     </application>
 
 </manifest>

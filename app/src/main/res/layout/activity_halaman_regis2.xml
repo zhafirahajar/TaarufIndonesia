@@ -38,14 +38,14 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:textColor="@color/shadowYellow"
-            android:text="Nama Depan"/>
+            android:text="Nama Lengkap"/>
         <EditText
-            android:id="@+id/Nama2"
+            android:id="@+id/Alamat"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:textColor="@color/shadowYellow"
-            android:text="Nama Belakang"/>
+            android:text="Alamat"/>
         <TextView
             android:id="@+id/Jeniskelamin"
             android:layout_width="350dp"
@@ -75,14 +75,14 @@
                     android:text="Perempuan" />
             </RadioGroup>
         <EditText
-            android:id="@+id/NoHP"
+            android:id="@+id/Pekerjaan"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:textColor="@color/shadowYellow"
             android:layout_marginTop="5dp"
-            android:text="Nomor Handphone"/>
+            android:text="Pekerjaan"/>
         <EditText
-            android:id="@+id/Repassword"
+            android:id="@+id/TglLahir"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:textColor="@color/shadowYellow"
