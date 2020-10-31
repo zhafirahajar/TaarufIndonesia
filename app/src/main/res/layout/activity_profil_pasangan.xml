@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".profile_pribadi">
+    tools:context=".ProfilPasangan">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -13,12 +13,11 @@
         android:padding="30dp">
 
         <Button
-            android:id="@+id/button_back"
+            android:id="@+id/BacktoList"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
             android:background="@color/mainYellow"
-            android:onClick="backButtonPressed"
             android:text="@string/back" />
 
         <ImageView
@@ -52,7 +51,7 @@
                     android:textSize="20sp" />
 
                 <TextView
-                    android:id="@+id/Namalengkap"
+                    android:id="@+id/fullName_value"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
@@ -69,7 +68,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="5dp"
-                    android:text="Tanggal Lahir :"
+                    android:text="@string/fullName"
                     android:textColor="#000000"
                     android:textSize="20sp" />
 
@@ -113,7 +112,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="5dp"
-                    android:text="Pekerjaan :"
+                    android:text="@string/alamat"
                     android:textColor="#000000"
                     android:textSize="20sp" />
 
@@ -129,22 +128,6 @@
                     android:textSize="20sp"
                     android:textStyle="bold"
                     android:typeface="normal" />
-
-                <Button
-                    android:id="@+id/Settings"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:background="@drawable/custom_rounded_corner"
-                    android:text="@string/edit" />
-
-                <Button
-                    android:id="@+id/button_logout"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/rounded_corner_grey"
-                    android:onClick="clickLogout"
-                    android:text="@string/logout" />
 
             </LinearLayout>
 

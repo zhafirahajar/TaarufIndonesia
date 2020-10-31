@@ -146,14 +146,14 @@
             android:layout_marginTop="25dp">
 
             <Button
-                android:id="@+id/button_x"
+                android:id="@+id/button_love"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:layout_marginLeft="20dp"
                 android:background="@drawable/love" />
 
             <Button
-                android:id="@+id/button_love"
+                android:id="@+id/button_back"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:layout_alignParentRight="true"

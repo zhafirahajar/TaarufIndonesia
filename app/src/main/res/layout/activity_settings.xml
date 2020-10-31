@@ -12,20 +12,22 @@
         android:orientation="vertical"
         android:padding="30dp">
 
-        <Button
-            android:id="@+id/button_back"
+        <TextView
+            android:id="@+id/button_back_editProfile"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_marginBottom="5dp"
-            android:background="@color/mainYellow"
-            android:onClick="backButtonPressed"
-            android:text="@string/back" />
+            android:background="@drawable/custom_rounded_corner"
+            android:text="Edit Profile"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/profile_pic"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:layout_marginBottom="15dp"
             android:scaleType="centerInside"
             app:srcCompat="@drawable/hijab" />
 
@@ -36,9 +38,10 @@
             app:cardBackgroundColor="@color/navYellow"
             app:cardCornerRadius="20dp">
 
+
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="529dp"
                 android:orientation="vertical"
                 android:padding="20dp">
 
@@ -51,13 +54,13 @@
                     android:textColor="#000000"
                     android:textSize="20sp" />
 
-                <TextView
-                    android:id="@+id/Namalengkap"
+                <EditText
+                    android:id="@+id/fullName_value"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="20dp"
+                    android:layout_marginBottom="10dp"
                     android:fontFamily="sans-serif-medium"
-                    android:text="TextView"
+                    android:text="Edit Text"
                     android:textAllCaps="false"
                     android:textColor="@color/shadowYellow"
                     android:textSize="20sp"
@@ -69,17 +72,17 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="5dp"
-                    android:text="Tanggal Lahir :"
+                    android:text="@string/tanggalLahir"
                     android:textColor="#000000"
                     android:textSize="20sp" />
 
-                <TextView
+                <EditText
                     android:id="@+id/tanggalLahir_value"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="20dp"
+                    android:layout_marginBottom="10dp"
                     android:fontFamily="sans-serif-medium"
-                    android:text="TextView"
+                    android:text="EditText"
                     android:textAllCaps="false"
                     android:textColor="@color/shadowYellow"
                     android:textSize="20sp"
@@ -95,13 +98,13 @@
                     android:textColor="#000000"
                     android:textSize="20sp" />
 
-                <TextView
+                <EditText
                     android:id="@+id/alamat_value"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="20dp"
+                    android:layout_marginBottom="10dp"
                     android:fontFamily="sans-serif-medium"
-                    android:text="TextView"
+                    android:text="Edit Text"
                     android:textAllCaps="false"
                     android:textColor="@color/shadowYellow"
                     android:textSize="20sp"
@@ -113,17 +116,17 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="5dp"
-                    android:text="Pekerjaan :"
+                    android:text="@string/pekerjaan_pribadi"
                     android:textColor="#000000"
                     android:textSize="20sp" />
 
-                <TextView
+                <EditText
                     android:id="@+id/pekerjaanPribadi_value"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="20dp"
+                    android:layout_marginBottom="10dp"
                     android:fontFamily="sans-serif-medium"
-                    android:text="TextView"
+                    android:text="Edit Text"
                     android:textAllCaps="false"
                     android:textColor="@color/shadowYellow"
                     android:textSize="20sp"
@@ -131,20 +134,20 @@
                     android:typeface="normal" />
 
                 <Button
-                    android:id="@+id/Settings"
+                    android:id="@+id/button_simpan"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
                     android:background="@drawable/custom_rounded_corner"
-                    android:text="@string/edit" />
+                    android:text="Simpan" />
 
                 <Button
-                    android:id="@+id/button_logout"
+                    android:id="@+id/button_kembali"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/rounded_corner_grey"
-                    android:onClick="clickLogout"
-                    android:text="@string/logout" />
+                    android:onClick="backButtonPressed"
+                    android:text="Kembali" />
 
             </LinearLayout>
 

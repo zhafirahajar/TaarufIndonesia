@@ -33,6 +33,10 @@ public class main_menu extends AppCompatActivity {
         });
         //-------------- kode passing data --------------
     }
+    public void listMatch(View view){
+        Intent next = new Intent(this, ListMatches.class);
+        startActivity(next);
+    }
 
     public void editProfile(View view){
         Intent next = new Intent(this, profile_pribadi.class);
