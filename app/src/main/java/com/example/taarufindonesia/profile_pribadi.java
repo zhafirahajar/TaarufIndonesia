@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Button;
 
@@ -29,14 +30,29 @@ public class profile_pribadi extends AppCompatActivity {
         showPekerjaan.setText(inputPekerjaan);
         showTglLahir.setText(inputTglLahir);
         //-------------- kode passing data --------------
-        Button backsit3 = (Button) findViewById(R.id.Settings);
-        backsit3.setOnClickListener(new View.OnClickListener() {
+
+        ///-------------- kode passing data --------------
+        final Button submitButton_setting = (Button)findViewById(R.id.Settings);
+        submitButton_setting.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(profile_pribadi.this, Settings.class);
-                startActivity(intent);
+                TextView fullName = (TextView) findViewById(R.id.Namalengkap);
+                TextView Alamat = (TextView) findViewById(R.id.alamat_value);
+                TextView Pekerjaan = (TextView) findViewById(R.id.pekerjaanPribadi_value);
+                TextView TglLahir = (TextView) findViewById(R.id.tanggalLahir_value);
+                String fullNameString = fullName.getText().toString();
+                String AlamatString = Alamat.getText().toString();
+                String PekerjaanString = Pekerjaan.getText().toString();
+                String TglLahirString = TglLahir.getText().toString();
+                Intent submitIntent = new Intent(profile_pribadi.this, Settings.class);
+                submitIntent.putExtra("fullNameString", fullNameString);
+                submitIntent.putExtra("AlamatString", AlamatString);
+                submitIntent.putExtra("PekerjaanString", PekerjaanString);
+                submitIntent.putExtra("TglLahirString", TglLahirString);
+                startActivity(submitIntent);
             }
         });
+        //-------------- kode passing data --------------
     }
 
     public void backButtonPressed(View view){
