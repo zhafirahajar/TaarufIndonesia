@@ -53,14 +53,4 @@ public class kriteria_calon extends AppCompatActivity {
         });
         //-------------- kode passing data --------------
     }
-
-    public void clickRegister(View view){
-        Intent next = new Intent(this, HalamanAwal.class);
-        startActivity(next);
-    }
-
-    public void clickLogin(View view){
-        Intent next = new Intent(this, HalamanLogin.class);
-        startActivity(next);
-    }
 }

@@ -115,7 +115,6 @@
             android:layout_marginBottom="20dp"
             android:background="@drawable/rounded_corners"
             android:color="@color/mainYellow"
-            android:onClick="clickRegister"
             android:text="@string/register" />
 
         <Button
@@ -124,7 +123,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:background="@drawable/rounded_corner_grey"
-            android:onClick="clickLogin"
             android:text="@string/login" />
 
     </LinearLayout>
