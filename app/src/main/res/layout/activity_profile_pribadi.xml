@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
             android:background="@color/mainYellow"
-            android:onClick="backButtonPressed"
+            android:onClick="clickBack"
             android:text="@string/back" />
 
         <ImageView

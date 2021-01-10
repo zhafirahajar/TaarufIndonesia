@@ -25,14 +25,14 @@
     <string name="slide_1_title">LOGIN/REGISTER</string>
     <string name="slide_1_desc">Buat Akun Agar Kami Menyimpan Data Pribadimu Dengan Aman</string>
 
-    <string name="slide_2_title">PROFIL</string>
-    <string name="slide_2_desc">Pilih Gambar Atau Fotomu Yang Terbaik, Karena Hal Ini Untuk Mempermudah Untuk Mendapatkan Match</string>
+    <string name="slide_2_title">MEDIATOR</string>
+    <string name="slide_2_desc">Para Mediator Taaruf yang Prefessional dan Berpengalaman Siap membantu kamu!</string>
 
     <string name="slide_3_title">PENGATURAN</string>
-    <string name="slide_3_desc">Dari Sini Kamu Bisa Mengatur Jenis Kelamin Dan Berbagai Pengaturan Yang Lainnya</string>
+    <string name="slide_3_desc">Dari Sini Kamu Bisa Mengatur Jenis Kelamin Dan Berbagai Pengaturan Profile Lainnya</string>
 
     <string name="slide_4_title">MENJELAJAHI</string>
-    <string name="slide_4_desc">Jika Kamu Menyukai Profil Tersebut, Geser Kearah Kanan Layar Pada Smartphone Atau Sebaliknya Jika Kamu Tidak Menyukai Geser Kearah Kiri Layar Smartphone. </string>
+    <string name="slide_4_desc">Jika Kamu Menyukai Profil Tersebut, Geser Kearah Kanan Layar Pada Smartphone Atau Sebaliknya Jika Kamu Tidak Menyukai Geser Kearah Kiri Layar Smartphone.</string>
 
 
 </resources>

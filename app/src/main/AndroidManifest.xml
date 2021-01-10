@@ -24,7 +24,6 @@
         <activity android:name=".HalamanAwal" />
         <activity android:name=".profile_pribadi" />
         <activity android:name=".main_menu" />
-        <activity android:name=".kriteria_calon" />
         <activity android:name=".HalamanRegis2" />
         <activity android:name=".HalamanRegis" />
         <activity android:name=".HalamanLogin" />

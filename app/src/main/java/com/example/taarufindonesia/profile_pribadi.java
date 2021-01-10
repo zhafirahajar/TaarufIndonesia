@@ -76,9 +76,10 @@ public class profile_pribadi extends AppCompatActivity {
         });
     }
 
-    public void backButtonPressed(View view){
-        this.onBackPressed();
-    } //di app
+    public void clickBack(View view){
+        Intent next = new Intent(this, main_menu.class);
+        startActivity(next);
+    }
 
     public void clickLogout(View view){
         Intent next = new Intent(this, HalamanAwal.class);
