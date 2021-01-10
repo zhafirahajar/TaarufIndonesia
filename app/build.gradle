@@ -1,5 +1,4 @@
 apply plugin: 'com.android.application'
-apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 30
@@ -39,5 +38,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth:20.0.1'
     implementation 'com.google.firebase:firebase-database:19.6.0'
     //implementation 'com.google.firebase:firebase-firestore:22.0.1'
+
 }
 
+apply plugin: 'com.google.gms.google-services'
