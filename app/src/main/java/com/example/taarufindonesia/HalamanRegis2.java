@@ -23,11 +23,14 @@ public class HalamanRegis2 extends AppCompatActivity {
                 EditText Alamat = (EditText) findViewById(R.id.Alamat);
                 EditText Pekerjaan = (EditText) findViewById(R.id.Pekerjaan);
                 EditText TglLahir = (EditText) findViewById(R.id.TglLahir);
+
                 String fullNameString = fullName.getText().toString();
                 String AlamatString = Alamat.getText().toString();
                 String PekerjaanString = Pekerjaan.getText().toString();
                 String TglLahirString = TglLahir.getText().toString();
+
                 Intent submitIntent = new Intent(HalamanRegis2.this, kriteria_calon.class);
+
                 submitIntent.putExtra("fullNameString", fullNameString);
                 submitIntent.putExtra("AlamatString", AlamatString);
                 submitIntent.putExtra("PekerjaanString", PekerjaanString);
@@ -50,7 +53,9 @@ public class HalamanRegis2 extends AppCompatActivity {
                 String AlamatString = Alamat.getText().toString();
                 String PekerjaanString = Pekerjaan.getText().toString();
                 String TglLahirString = TglLahir.getText().toString();
+
                 Intent submitIntent = new Intent(HalamanRegis2.this, HalamanLogin.class);
+
                 submitIntent.putExtra("fullNameString", fullNameString);
                 submitIntent.putExtra("AlamatString", AlamatString);
                 submitIntent.putExtra("PekerjaanString", PekerjaanString);

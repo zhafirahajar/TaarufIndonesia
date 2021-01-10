@@ -45,7 +45,7 @@ public class profile_pribadi extends AppCompatActivity {
                 String PekerjaanString = Pekerjaan.getText().toString();
                 String TglLahirString = TglLahir.getText().toString();
                 Intent submitIntent = new Intent(profile_pribadi.this, Settings.class);
-                submitIntent.putExtra("fullNameString", fullNameString);
+                submitIntent.putExtra("nama", fullNameString);
                 submitIntent.putExtra("AlamatString", AlamatString);
                 submitIntent.putExtra("PekerjaanString", PekerjaanString);
                 submitIntent.putExtra("TglLahirString", TglLahirString);

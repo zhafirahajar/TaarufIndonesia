@@ -20,13 +20,10 @@ public class main_menu extends AppCompatActivity {
     private ArrayAdapter<String> arrayAdapter;
     private int i;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu);
-
 
         al = new ArrayList<>();
         al.add("user1");
@@ -57,12 +54,12 @@ public class main_menu extends AppCompatActivity {
                 //Do something on the left!
                 //You also have access to the original object.
                 //If you want to use it just cast it (String) dataObject
-                Toast.makeText(main_menu.this, "Left", Toast.LENGTH_SHORT).show();
+                Toast.makeText(main_menu.this, "Tidak Suka", Toast.LENGTH_SHORT).show();
             }
 
             @Override
             public void onRightCardExit(Object dataObject) {
-                Toast.makeText(main_menu.this, "Right", Toast.LENGTH_SHORT).show();
+                Toast.makeText(main_menu.this, "Suka", Toast.LENGTH_SHORT).show();
             }
 
             @Override
@@ -81,14 +78,7 @@ public class main_menu extends AppCompatActivity {
         });
 
 
-        // Optionally add an OnItemClickListener
-        flingContainer.setOnItemClickListener(new SwipeFlingAdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClicked(int itemPosition, Object dataObject) {
-                Toast.makeText(main_menu.this, "Click", Toast.LENGTH_SHORT).show();
-            }
 
-        });
     }
     public void editProfile(View view){
         Intent next = new Intent(this, profile_pribadi.class);
