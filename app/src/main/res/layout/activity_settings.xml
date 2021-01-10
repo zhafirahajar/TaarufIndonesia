@@ -131,12 +131,11 @@
                     android:typeface="normal" />
 
                 <Button
-                    android:id="@+id/button_simpan"
+                    android:id="@+id/simpan"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
                     android:background="@drawable/custom_rounded_corner"
-                    android:onClick="backButtonPressed"
                     android:text="Simpan" />
 
             </LinearLayout>

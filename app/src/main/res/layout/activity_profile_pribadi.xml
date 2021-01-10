@@ -131,15 +131,16 @@
                     android:typeface="normal" />
 
                 <Button
-                    android:id="@+id/Settings"
+                    android:id="@+id/Edit"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
                     android:background="@drawable/custom_rounded_corner"
+                    android:onClick="clickEdit"
                     android:text="@string/edit" />
 
                 <Button
-                    android:id="@+id/button_logout"
+                    android:id="@+id/logout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/rounded_corner_grey"
