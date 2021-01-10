@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "507048536232",
+    "project_id": "uas-taarufindonesia",
+    "storage_bucket": "uas-taarufindonesia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:507048536232:android:e6f5a33cd576d49320ba9d",
+        "android_client_info": {
+          "package_name": "com.example.taarufindonesia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "507048536232-esatf8b0oo6nrvbd4vdnom385fgnbn0s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.taarufindonesia",
+            "certificate_hash": "6ca8dbb0994efd4759dfb65801500d45449baa2b"
+          }
+        },
+        {
+          "client_id": "507048536232-ug9nv09st51jums6jnrh6buj3fpfr1a8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkG0gbJFVWa_JQZpxK1WwB4UZdU9YxmAs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "507048536232-ug9nv09st51jums6jnrh6buj3fpfr1a8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
