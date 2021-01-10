@@ -20,7 +20,7 @@ import com.google.firebase.auth.FirebaseUser;
 public class HalamanRegis extends AppCompatActivity {
 
     private Button Continue,Login;
-    private EditText Username, Password, Repassword;
+    private EditText Username, Password;
 
     private FirebaseAuth mAuth;
     private FirebaseAuth.AuthStateListener firebaseAuthStateListener;
@@ -66,14 +66,12 @@ public class HalamanRegis extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(!task.isSuccessful()){
                             Toast.makeText(HalamanRegis.this, "Cannot Sign-Up", Toast.LENGTH_SHORT).show();
-                            //intent ke halaman selanjutnya
                             Intent pindah = new Intent(HalamanRegis.this, HalamanAwal.class);
                             startActivity(pindah);
                             finish();
                         }
                         else{
                             Toast.makeText(HalamanRegis.this, "Sign-Up Successfully", Toast.LENGTH_SHORT).show();
-                            //intent ke halaman selanjutnya
                             Intent pindah = new Intent(HalamanRegis.this, HalamanRegis2.class);
                             startActivity(pindah);
                             finish();

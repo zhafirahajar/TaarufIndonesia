@@ -9,22 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ProfilPasangan"></activity>
-        <activity android:name=".ListMatches" />
-        <activity android:name=".Settings" />
-        <activity android:name=".HalamanAwal">
+        <activity android:name=".MainIntro"></activity>
+        <activity android:name=".Intro">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".profile_pribadi"></activity>
-        <activity android:name=".main_menu"></activity>
-        <activity android:name=".kriteria_calon"></activity>
-        <activity android:name=".HalamanRegis2"></activity>
-        <activity android:name=".HalamanRegis"></activity>
-        <activity android:name=".HalamanLogin"></activity>
+        <activity android:name=".ProfilPasangan" />
+        <activity android:name=".ListMatches" />
+        <activity android:name=".Settings" />
+        <activity android:name=".HalamanAwal" />
+        <activity android:name=".profile_pribadi" />
+        <activity android:name=".main_menu" />
+        <activity android:name=".kriteria_calon" />
+        <activity android:name=".HalamanRegis2" />
+        <activity android:name=".HalamanRegis" />
+        <activity android:name=".HalamanLogin" />
     </application>
 
 </manifest>
